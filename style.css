@@ -11,11 +11,15 @@ body {
   background: -moz-linear-gradient(top, #F4FFF0 0%, #00751D 100%);
   background: -webkit-linear-gradient(top, #F4FFF0 0%, #00751D 100%);
   background: linear-gradient(to bottom, #F4FFF0 0%, #00751D 100%);
-  padding: 10px;
-  text-align: center;
+  padding: 3em;
+  text-align: left;
   line-height: 1.5;
-  max-width: 60%;
-  margin: auto;
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap:100px;
 }
 
 h1 {
